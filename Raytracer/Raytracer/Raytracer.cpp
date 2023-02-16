@@ -105,18 +105,6 @@ public:
 		const double t1 = -b + disc;
 		t = (t0 < t1) ? t0 : t1;
 		return true;
-		//std::cout << t << std::endl;
-		//double t1 = (radio * radio + 2.0 * dot(r.origen, r.dir) - dot(r.origen, r.origen)) / dot(r.dir, r.dir);
-		//std::cout << t1 << std::endl;
-		//if (t < eps)
-		//	return false;
-		//t1 = sqrt(t1);
-		//double t2 = -t1;
-		//if ((r.dir * t1).norm() < (r.dir * t2).norm())
-		//	t = t1;
-		//else
-		//	t = t2;
-		//return true;
 	}
 };
 
